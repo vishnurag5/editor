@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html class="loading dark-layout" lang="en" data-layout="dark-layout" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Analytics - Metabild</title>
+    <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/Metabild grey.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/charts/apexcharts.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/extensions/toastr.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/tables/datatable/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/tables/datatable/responsive.bootstrap5.min.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/bordered-layout.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/horizontal-menu.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/charts/chart-apex.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/extensions/ext-component-toastr.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/app-invoice-list.css">
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <!-- END: Custom CSS-->
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="horizontal-layout horizontal-menu  navbar-floating footer-static  " data-open="hover" data-menu="horizontal-menu" data-col="">
+
+    <!-- BEGIN: Header-->
+    <nav class="header-navbar navbar-expand-lg navbar navbar-fixed align-items-center navbar-shadow navbar-brand-center"
+    data-nav="brand-center" style="height: 52px;
+min-height: auto;">
+    <!-- <div class="navbar-header d-xl-block d-none">
+        <ul class="nav navbar-nav">
+            <li class="nav-item"><a class="navbar-brand" href="../../../html/ltr/horizontal-menu-template-dark/index.html">
+                    <h2 class="brand-text mb-0">metabild</h2>
+                </a></li>
+        </ul>
+    </div> -->
+    <div class="navbar-container d-flex content">
+        <div class="navbar-header d-xl-block d-none" style="position: static;">
+            <ul class="nav navbar-nav">
+                <li class="nav-item"><a class="navbar-brand"
+                        href="../../../html/ltr/horizontal-menu-template-dark/index.html"
+                        style="padding-top: 14px;">
+                        <img src="../../../app-assets/images/logo/Metabild logo.svg">
+
+                    </a></li>
+            </ul>
+        </div>
+        <div class="bookmark-wrapper d-flex align-items-center">
+
+            <ul class="nav navbar-nav d-xl-none">
+                <li class="nav-item"><a class="nav-link menu-toggle" href="#"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="feather feather-menu ficon">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg></a></li>
+            </ul>
+            <ul class="nav navbar-nav bookmark-icons">
+                <!-- <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-email.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Email"><i class="ficon" data-feather="mail"></i></a></li>
+                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-chat.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Chat"><i class="ficon" data-feather="message-square"></i></a></li>
+                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-calendar.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Calendar"><i class="ficon" data-feather="calendar"></i></a></li>
+                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-todo.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Todo"><i class="ficon" data-feather="check-square"></i></a></li> -->
+                <div class="card-body" style="padding:0px">
+                    <ul class="nav nav-pills" style="padding-top: 20px;padding-left: 122px;">
+                        <li class="nav-item">
+                            <div class="row" style="flex-wrap: inherit;padding-right: 36px;padding-left: 20px;">
+                                <img src="../../../app-assets/images/icons/home.png"
+                                    style="height: 24px;width: 24px;padding: 0pc;padding: 0;padding-bottom: 1px;">
+
+                                <!-- <a class="nav-link active" id="home-tab" data-bs-toggle="pill" href="#home" aria-expanded="true">Home</a> -->
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="row" style="flex-wrap: inherit;padding-left: 10px;">
+
+                                <a class="nav-link" id="profile-tab" data-bs-toggle="pill" href="#profile"
+                                    aria-expanded="false" style="
+padding: 0;
+margin: 0px;
+"><img src="../../../app-assets/images/icons/3D.png" style="height: 16px;width: 18px;padding: 0pc;padding: 0;">
+                                    <p style="margin:0px;padding-left: 7px;">3D
+                                        editor</p>
+                                </a>
+
+                            </div>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="row" style="flex-wrap: inherit;padding-left: 47px;">
+
+                                <a class="nav-link" id="profile-tab" data-bs-toggle="pill" href="#profile"
+                                    aria-expanded="false" style="
+padding: 0;
+margin: 0px;
+"><img src="../../../app-assets/images/icons/Behavior.png" style="height: 16px;width: 18px;padding: 0pc;padding: 0;">
+                                    <p style="margin:0px;padding-left: 7px;">Behaviour</p>
+                                </a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="row" style="flex-wrap: inherit;padding-left: 47px;">
+
+                                <a class="nav-link" id="profile-tab" data-bs-toggle="pill" href="#profile"
+                                    aria-expanded="false" style="
+padding: 0;
+margin: 0px;
+"> <img src="../../../app-assets/images/icons/folder.png" style="height: 16px;width: 18px;padding: 0pc;padding: 0;">
+                                    <p style="margin:0px;padding-left: 7px;">Folder</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </ul>
+            <!-- <ul class="nav navbar-nav">
+                <li class="nav-item d-none d-lg-block"><a class="nav-link bookmark-star"><i class="ficon text-warning" data-feather="star"></i></a>
+                    <div class="bookmark-input search-input">
+                        <div class="bookmark-input-icon"><i data-feather="search"></i></div>
+                        <input class="form-control input" type="text" placeholder="Bookmark" tabindex="0" data-search="search">
+                        <ul class="search-list search-list-bookmark"></ul>
+                    </div>
+                </li>
+            </ul> -->
+        </div>
+        <ul class="nav navbar-nav align-items-center ms-auto">
+            <!-- <li class="nav-item dropdown dropdown-language"><a class="nav-link dropdown-toggle" id="dropdown-flag" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="flag-icon flag-icon-us"></i><span class="selected-language">English</span></a>
+                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-flag"><a class="dropdown-item" href="#" data-language="en"><i class="flag-icon flag-icon-us"></i> English</a><a class="dropdown-item" href="#" data-language="fr"><i class="flag-icon flag-icon-fr"></i> French</a><a class="dropdown-item" href="#" data-language="de"><i class="flag-icon flag-icon-de"></i> German</a><a class="dropdown-item" href="#" data-language="pt"><i class="flag-icon flag-icon-pt"></i> Portuguese</a></div>
+            </li> -->
+            <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-style"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-sun ficon">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg></a></li>
+            <li class="nav-item nav-search"><a class="nav-link nav-link-search"><img src="../public/app-assets/images/svg/play-button-arrowhead.png" style="width: 24px;height: 24px;" onclick="redirectPlay()"></a>
+                <div class="search-input">
+                    <div class="search-input-icon"><i data-feather="search"></i></div>
+                    <input class="form-control input" type="text" placeholder="Explore Vuexy..." tabindex="-1" data-search="search">
+                    <div class="search-input-close"><i data-feather="x"></i></div>
+                    <ul class="search-list search-list-main"></ul>
+                </div>
+            </li>
+            <!-- <li class="nav-item dropdown dropdown-cart me-25"><a class="nav-link" href="#" data-bs-toggle="dropdown"><i class="ficon" data-feather="shopping-cart"></i><span class="badge rounded-pill bg-primary badge-up cart-item-count">6</span></a>
+                <ul class="dropdown-menu dropdown-menu-media dropdown-menu-end">
+                    <li class="dropdown-menu-header">
+                        <div class="dropdown-header d-flex">
+                            <h4 class="notification-title mb-0 me-auto">My Cart</h4>
+                            <div class="badge rounded-pill badge-light-primary">4 Items</div>
+                        </div>
+                    </li>
+                    <li class="scrollable-container media-list">
+                        <div class="list-item align-items-center"><img class="d-block rounded me-1" src="../../../app-assets/images/pages/eCommerce/1.png" alt="donuts" width="62">
+                            <div class="list-item-body flex-grow-1"><i class="ficon cart-item-remove" data-feather="x"></i>
+                                <div class="media-heading">
+                                    <h6 class="cart-item-title"><a class="text-body" href="app-ecommerce-details.html"> Apple watch 5</a></h6><small class="cart-item-by">By Apple</small>
+                                </div>
+                                <div class="cart-item-qty">
+                                    <div class="input-group">
+                                        <input class="touchspin-cart" type="number" value="1">
+                                    </div>
+                                </div>
+                                <h5 class="cart-item-price">$374.90</h5>
+                            </div>
+                        </div>
+                        <div class="list-item align-items-center"><img class="d-block rounded me-1" src="../../../app-assets/images/pages/eCommerce/7.png" alt="donuts" width="62">
+                            <div class="list-item-body flex-grow-1"><i class="ficon cart-item-remove" data-feather="x"></i>
+                                <div class="media-heading">
+                                    <h6 class="cart-item-title"><a class="text-body" href="app-ecommerce-details.html"> Google Home Mini</a></h6><small class="cart-item-by">By Google</small>
+                                </div>
+                                <div class="cart-item-qty">
+                                    <div class="input-group">
+                                        <input class="touchspin-cart" type="number" value="3">
+                                    </div>
+                                </div>
+                                <h5 class="cart-item-price">$129.40</h5>
+                            </div>
+                        </div>
+                        <div class="list-item align-items-center"><img class="d-block rounded me-1" src="../../../app-assets/images/pages/eCommerce/2.png" alt="donuts" width="62">
+                            <div class="list-item-body flex-grow-1"><i class="ficon cart-item-remove" data-feather="x"></i>
+                                <div class="media-heading">
+                                    <h6 class="cart-item-title"><a class="text-body" href="app-ecommerce-details.html"> iPhone 11 Pro</a></h6><small class="cart-item-by">By Apple</small>
+                                </div>
+                                <div class="cart-item-qty">
+                                    <div class="input-group">
+                                        <input class="touchspin-cart" type="number" value="2">
+                                    </div>
+                                </div>
+                                <h5 class="cart-item-price">$699.00</h5>
+                            </div>
+                        </div>
+                        <div class="list-item align-items-center"><img class="d-block rounded me-1" src="../../../app-assets/images/pages/eCommerce/3.png" alt="donuts" width="62">
+                            <div class="list-item-body flex-grow-1"><i class="ficon cart-item-remove" data-feather="x"></i>
+                                <div class="media-heading">
+                                    <h6 class="cart-item-title"><a class="text-body" href="app-ecommerce-details.html"> iMac Pro</a></h6><small class="cart-item-by">By Apple</small>
+                                </div>
+                                <div class="cart-item-qty">
+                                    <div class="input-group">
+                                        <input class="touchspin-cart" type="number" value="1">
+                                    </div>
+                                </div>
+                                <h5 class="cart-item-price">$4,999.00</h5>
+                            </div>
+                        </div>
+                        <div class="list-item align-items-center"><img class="d-block rounded me-1" src="../../../app-assets/images/pages/eCommerce/5.png" alt="donuts" width="62">
+                            <div class="list-item-body flex-grow-1"><i class="ficon cart-item-remove" data-feather="x"></i>
+                                <div class="media-heading">
+                                    <h6 class="cart-item-title"><a class="text-body" href="app-ecommerce-details.html"> MacBook Pro</a></h6><small class="cart-item-by">By Apple</small>
+                                </div>
+                                <div class="cart-item-qty">
+                                    <div class="input-group">
+                                        <input class="touchspin-cart" type="number" value="1">
+                                    </div>
+                                </div>
+                                <h5 class="cart-item-price">$2,999.00</h5>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown-menu-footer">
+                        <div class="d-flex justify-content-between mb-1">
+                            <h6 class="fw-bolder mb-0">Total:</h6>
+                            <h6 class="text-primary fw-bolder mb-0">$10,999.00</h6>
+                        </div><a class="btn btn-primary w-100" href="app-ecommerce-checkout.html">Checkout</a>
+                    </li>
+                </ul>
+            </li> -->
+            <li class="nav-item dropdown dropdown-notification me-25" onclick="redirectAnalytics()"><a class="nav-link"
+                    href="dashboard-analytics.html" data-bs-toggle="dropdown"><img
+                        src="../../../app-assets/images/icons/chart-line.png"></a>
+
+            </li>
+            <li class="nav-item dropdown dropdown-user"><a class="nav-link dropdown-toggle dropdown-user-link"
+                    id="dropdown-user" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <span class="avatar"><img class="round" src="../../../app-assets/images/icons/setting.svg"
+                            alt="avatar" height="24" width="24"></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user">
+                    <a class="dropdown-item" href="page-account-settings-account.html"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="feather feather-settings me-50">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path
+                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                            </path>
+                        </svg> Settings</a><a class="dropdown-item" href="page-faq.html"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="feather feather-help-circle me-50">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                        </svg> FAQ</a><a class="dropdown-item" href="auth-login-cover.html"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="feather feather-power me-50">
+                            <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
+                            <line x1="12" y1="2" x2="12" y2="12"></line>
+                        </svg> Logout</a>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+    <ul class="main-search-list-defaultlist d-none">
+        <li class="d-flex align-items-center"><a href="#">
+                <h6 class="section-label mt-75 mb-0">Files</h6>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100" href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="me-75"><img src="../../../app-assets/images/icons/xls.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Two new item submitted</p><small class="text-muted">Marketing Manager</small>
+                    </div>
+                </div><small class="search-data-size me-50 text-muted">&apos;17kb</small>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100" href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="me-75"><img src="../../../app-assets/images/icons/jpg.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">52 JPG file Generated</p><small class="text-muted">FontEnd Developer</small>
+                    </div>
+                </div><small class="search-data-size me-50 text-muted">&apos;11kb</small>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100" href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="me-75"><img src="../../../app-assets/images/icons/pdf.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">25 PDF File Uploaded</p><small class="text-muted">Digital Marketing Manager</small>
+                    </div>
+                </div><small class="search-data-size me-50 text-muted">&apos;150kb</small>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100" href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="me-75"><img src="../../../app-assets/images/icons/doc.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Anna_Strong.doc</p><small class="text-muted">Web Designer</small>
+                    </div>
+                </div><small class="search-data-size me-50 text-muted">&apos;256kb</small>
+            </a></li>
+        <li class="d-flex align-items-center"><a href="#">
+                <h6 class="section-label mt-75 mb-0">Members</h6>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100" href="app-user-view-account.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar me-75"><img src="../../../app-assets/images/portrait/small/avatar-s-8.jpg" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">John Doe</p><small class="text-muted">UI designer</small>
+                    </div>
+                </div>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100" href="app-user-view-account.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar me-75"><img src="../../../app-assets/images/portrait/small/avatar-s-1.jpg" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Michal Clark</p><small class="text-muted">FontEnd Developer</small>
+                    </div>
+                </div>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100" href="app-user-view-account.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar me-75"><img src="../../../app-assets/images/portrait/small/avatar-s-14.jpg" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Milena Gibson</p><small class="text-muted">Digital Marketing Manager</small>
+                    </div>
+                </div>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100" href="app-user-view-account.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar me-75"><img src="../../../app-assets/images/portrait/small/avatar-s-6.jpg" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Anna Strong</p><small class="text-muted">Web Designer</small>
+                    </div>
+                </div>
+            </a></li>
+    </ul>
+    <ul class="main-search-list-defaultlist-other-list d-none">
+        <li class="auto-suggestion justify-content-between"><a class="d-flex align-items-center justify-content-between w-100 py-50">
+                <div class="d-flex justify-content-start"><span class="me-75" data-feather="alert-circle"></span><span>No results found.</span></div>
+            </a></li>
+    </ul>
+    <!-- END: Header-->
+
+
+    <!-- BEGIN: Main Menu-->
+    
+    <!-- END: Main Menu-->
+
+    <!-- BEGIN: Content-->
+    <div class="app-content content ">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper container-xxl p-0">
+            <div class="content-header row">
+            </div>
+            <div class="content-body">
+                <!-- Dashboard Analytics Start -->
+                <section id="dashboard-analytics">
+                    <div class="row match-height">
+                        <!-- Greetings Card starts -->
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="card card-congratulations">
+                                <div class="card-body text-center">
+                                    <img src="../../../app-assets/images/elements/decore-left.png" class="congratulations-img-left" alt="card-img-left" />
+                                    <img src="../../../app-assets/images/elements/decore-right.png" class="congratulations-img-right" alt="card-img-right" />
+                                    <div class="avatar avatar-xl bg-primary shadow">
+                                        <div class="avatar-content">
+                                            <i data-feather="award" class="font-large-1"></i>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <h1 class="mb-1 text-white">Congratulations John,</h1>
+                                        <p class="card-text m-auto w-75">
+                                            You have done <strong>57.6%</strong> more sales today. Check your new badge in your profile.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Greetings Card ends -->
+
+                        <!-- Subscribers Chart Card starts -->
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="card">
+                                <div class="card-header flex-column align-items-start pb-0">
+                                    <div class="avatar bg-light-primary p-50 m-0">
+                                        <div class="avatar-content">
+                                            <i data-feather="users" class="font-medium-5"></i>
+                                        </div>
+                                    </div>
+                                    <h2 class="fw-bolder mt-1">92.6k</h2>
+                                    <p class="card-text">Subscribers Gained</p>
+                                </div>
+                                <div id="gained-chart"></div>
+                            </div>
+                        </div>
+                        <!-- Subscribers Chart Card ends -->
+
+                        <!-- Orders Chart Card starts -->
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="card">
+                                <div class="card-header flex-column align-items-start pb-0">
+                                    <div class="avatar bg-light-warning p-50 m-0">
+                                        <div class="avatar-content">
+                                            <i data-feather="package" class="font-medium-5"></i>
+                                        </div>
+                                    </div>
+                                    <h2 class="fw-bolder mt-1">38.4K</h2>
+                                    <p class="card-text">Orders Received</p>
+                                </div>
+                                <div id="order-chart"></div>
+                            </div>
+                        </div>
+                        <!-- Orders Chart Card ends -->
+                    </div>
+
+                    <div class="row match-height">
+                        <!-- Avg Sessions Chart Card starts -->
+                        <div class="col-lg-6 col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row pb-50">
+                                        <div class="col-sm-6 col-12 d-flex justify-content-between flex-column order-sm-1 order-2 mt-1 mt-sm-0">
+                                            <div class="mb-1 mb-sm-0">
+                                                <h2 class="fw-bolder mb-25">2.7K</h2>
+                                                <p class="card-text fw-bold mb-2">Avg Sessions</p>
+                                                <div class="font-medium-2">
+                                                    <span class="text-success me-25">+5.2%</span>
+                                                    <span>vs last 7 days</span>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn btn-primary">View Details</button>
+                                        </div>
+                                        <div class="col-sm-6 col-12 d-flex justify-content-between flex-column text-end order-sm-2 order-1">
+                                            <div class="dropdown chart-dropdown">
+                                                <button class="btn btn-sm border-0 dropdown-toggle p-50" type="button" id="dropdownItem5" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Last 7 Days
+                                                </button>
+                                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownItem5">
+                                                    <a class="dropdown-item" href="#">Last 28 Days</a>
+                                                    <a class="dropdown-item" href="#">Last Month</a>
+                                                    <a class="dropdown-item" href="#">Last Year</a>
+                                                </div>
+                                            </div>
+                                            <div id="avg-sessions-chart"></div>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="row avg-sessions pt-50">
+                                        <div class="col-6 mb-2">
+                                            <p class="mb-50">Goal: $100000</p>
+                                            <div class="progress progress-bar-primary" style="height: 6px">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="50" aria-valuemax="100" style="width: 50%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mb-2">
+                                            <p class="mb-50">Users: 100K</p>
+                                            <div class="progress progress-bar-warning" style="height: 6px">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="60" aria-valuemax="100" style="width: 60%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="mb-50">Retention: 90%</p>
+                                            <div class="progress progress-bar-danger" style="height: 6px">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="70" aria-valuemax="100" style="width: 70%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="mb-50">Duration: 1yr</p>
+                                            <div class="progress progress-bar-success" style="height: 6px">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="90" aria-valuemax="100" style="width: 90%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Avg Sessions Chart Card ends -->
+
+                        <!-- Support Tracker Chart Card starts -->
+                        <div class="col-lg-6 col-12">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between pb-0">
+                                    <h4 class="card-title">Support Tracker</h4>
+                                    <div class="dropdown chart-dropdown">
+                                        <button class="btn btn-sm border-0 dropdown-toggle p-50" type="button" id="dropdownItem4" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Last 7 Days
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownItem4">
+                                            <a class="dropdown-item" href="#">Last 28 Days</a>
+                                            <a class="dropdown-item" href="#">Last Month</a>
+                                            <a class="dropdown-item" href="#">Last Year</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-2 col-12 d-flex flex-column flex-wrap text-center">
+                                            <h1 class="font-large-2 fw-bolder mt-2 mb-0">163</h1>
+                                            <p class="card-text">Tickets</p>
+                                        </div>
+                                        <div class="col-sm-10 col-12 d-flex justify-content-center">
+                                            <div id="support-trackers-chart"></div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-1">
+                                        <div class="text-center">
+                                            <p class="card-text mb-50">New Tickets</p>
+                                            <span class="font-large-1 fw-bold">29</span>
+                                        </div>
+                                        <div class="text-center">
+                                            <p class="card-text mb-50">Open Tickets</p>
+                                            <span class="font-large-1 fw-bold">63</span>
+                                        </div>
+                                        <div class="text-center">
+                                            <p class="card-text mb-50">Response Time</p>
+                                            <span class="font-large-1 fw-bold">1d</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Support Tracker Chart Card ends -->
+                    </div>
+
+                    <div class="row match-height">
+                        <!-- Timeline Card -->
+                        <div class="col-lg-4 col-12">
+                            <div class="card card-user-timeline">
+                                <div class="card-header">
+                                    <div class="d-flex align-items-center">
+                                        <i data-feather="list" class="user-timeline-title-icon"></i>
+                                        <h4 class="card-title">User Timeline</h4>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="timeline ms-50">
+                                        <li class="timeline-item">
+                                            <span class="timeline-point timeline-point-indicator"></span>
+                                            <div class="timeline-event">
+                                                <h6>12 Invoices have been paid</h6>
+                                                <p>Invoices are paid to the company</p>
+                                                <div class="d-flex align-items-center">
+                                                    <img class="me-1" src="../../../app-assets/images/icons/json.png" alt="data.json" height="23" />
+                                                    <h6 class="more-info mb-0">data.json</h6>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="timeline-item">
+                                            <span class="timeline-point timeline-point-warning timeline-point-indicator"></span>
+                                            <div class="timeline-event">
+                                                <h6>Client Meeting</h6>
+                                                <p>Project meeting with Carl</p>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="avatar me-50">
+                                                        <img src="../../../app-assets/images/portrait/small/avatar-s-9.jpg" alt="Avatar" width="38" height="38" />
+                                                    </div>
+                                                    <div class="more-info">
+                                                        <h6 class="mb-0">Carl Roy (Client)</h6>
+                                                        <p class="mb-0">CEO of Infibeam</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="timeline-item">
+                                            <span class="timeline-point timeline-point-info timeline-point-indicator"></span>
+                                            <div class="timeline-event">
+                                                <h6>Create a new project</h6>
+                                                <p>Add files to new design folder</p>
+                                                <div class="avatar-group">
+                                                    <div data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="bottom" title="Billy Hopkins" class="avatar pull-up">
+                                                        <img src="../../../app-assets/images/portrait/small/avatar-s-9.jpg" alt="Avatar" width="33" height="33" />
+                                                    </div>
+                                                    <div data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="bottom" title="Amy Carson" class="avatar pull-up">
+                                                        <img src="../../../app-assets/images/portrait/small/avatar-s-6.jpg" alt="Avatar" width="33" height="33" />
+                                                    </div>
+                                                    <div data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="bottom" title="Brandon Miles" class="avatar pull-up">
+                                                        <img src="../../../app-assets/images/portrait/small/avatar-s-8.jpg" alt="Avatar" width="33" height="33" />
+                                                    </div>
+                                                    <div data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="bottom" title="Daisy Weber" class="avatar pull-up">
+                                                        <img src="../../../app-assets/images/portrait/small/avatar-s-7.jpg" alt="Avatar" width="33" height="33" />
+                                                    </div>
+                                                    <div data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="bottom" title="Jenny Looper" class="avatar pull-up">
+                                                        <img src="../../../app-assets/images/portrait/small/avatar-s-20.jpg" alt="Avatar" width="33" height="33" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="timeline-item">
+                                            <span class="timeline-point timeline-point-danger timeline-point-indicator"></span>
+                                            <div class="timeline-event">
+                                                <h6>Update project for client</h6>
+                                                <p class="mb-0">Update files as per new design</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ Timeline Card -->
+
+                        <!-- Sales Stats Chart Card starts -->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-start pb-1">
+                                    <div>
+                                        <h4 class="card-title mb-25">Sales</h4>
+                                        <p class="card-text">Last 6 months</p>
+                                    </div>
+                                    <div class="dropdown chart-dropdown">
+                                        <i data-feather="more-vertical" class="font-medium-3 cursor-pointer" data-bs-toggle="dropdown"></i>
+                                        <div class="dropdown-menu dropdown-menu-end">
+                                            <a class="dropdown-item" href="#">Last 28 Days</a>
+                                            <a class="dropdown-item" href="#">Last Month</a>
+                                            <a class="dropdown-item" href="#">Last Year</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-inline-block me-1">
+                                        <div class="d-flex align-items-center">
+                                            <i data-feather="circle" class="font-small-3 text-primary me-50"></i>
+                                            <h6 class="mb-0">Sales</h6>
+                                        </div>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <div class="d-flex align-items-center">
+                                            <i data-feather="circle" class="font-small-3 text-info me-50"></i>
+                                            <h6 class="mb-0">Visits</h6>
+                                        </div>
+                                    </div>
+                                    <div id="sales-visit-chart" class="mt-50"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sales Stats Chart Card ends -->
+
+                        <!-- App Design Card -->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card card-app-design">
+                                <div class="card-body">
+                                    <span class="badge badge-light-primary">03 Sep, 20</span>
+                                    <h4 class="card-title mt-1 mb-75 pt-25">App design</h4>
+                                    <p class="card-text font-small-2 mb-2">
+                                        You can Find Only Post and Quotes Related to IOS like ipad app design, iphone app design
+                                    </p>
+                                    <div class="design-group mb-2 pt-50">
+                                        <h6 class="section-label">Team</h6>
+                                        <span class="badge badge-light-warning me-1">Figma</span>
+                                        <span class="badge badge-light-primary">Wireframe</span>
+                                    </div>
+                                    <div class="design-group pt-25">
+                                        <h6 class="section-label">Members</h6>
+                                        <div class="avatar">
+                                            <img src="../../../app-assets/images/portrait/small/avatar-s-9.jpg" width="34" height="34" alt="Avatar" />
+                                        </div>
+                                        <div class="avatar bg-light-danger">
+                                            <div class="avatar-content">PI</div>
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="../../../app-assets/images/portrait/small/avatar-s-14.jpg" width="34" height="34" alt="Avatar" />
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="../../../app-assets/images/portrait/small/avatar-s-7.jpg" width="34" height="34" alt="Avatar" />
+                                        </div>
+                                        <div class="avatar bg-light-secondary">
+                                            <div class="avatar-content">AL</div>
+                                        </div>
+                                    </div>
+                                    <div class="design-planning-wrapper mb-2 py-75">
+                                        <div class="design-planning">
+                                            <p class="card-text mb-25">Due Date</p>
+                                            <h6 class="mb-0">12 Apr, 21</h6>
+                                        </div>
+                                        <div class="design-planning">
+                                            <p class="card-text mb-25">Budget</p>
+                                            <h6 class="mb-0">$49251.91</h6>
+                                        </div>
+                                        <div class="design-planning">
+                                            <p class="card-text mb-25">Cost</p>
+                                            <h6 class="mb-0">$840.99</h6>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-primary w-100">Join Team</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ App Design Card -->
+                    </div>
+
+                    <!-- List DataTable -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card invoice-list-wrapper">
+                                <div class="card-datatable table-responsive">
+                                    <table class="invoice-list-table table">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th>#</th>
+                                                <th><i data-feather="trending-up"></i></th>
+                                                <th>Client</th>
+                                                <th>Total</th>
+                                                <th class="text-truncate">Issued Date</th>
+                                                <th>Balance</th>
+                                                <th>Invoice Status</th>
+                                                <th class="cell-fit">Actions</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ List DataTable -->
+                </section>
+                <!-- Dashboard Analytics end -->
+
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+    <!-- BEGIN: Footer-->
+    <footer class="footer footer-static footer-light footer-shadow">
+        <p class="clearfix mb-0"><span class="float-md-start d-block d-md-inline-block mt-25">COPYRIGHT &copy; 2021<a class="ms-25" href="https://1.envato.market/pixinvent_portfolio" target="_blank">Pixinvent</a><span class="d-none d-sm-inline-block">, All rights Reserved</span></span><span class="float-md-end d-none d-md-block">Hand-crafted & Made with<i data-feather="heart"></i></span></p>
+    </footer>
+    <button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
+    <!-- END: Footer-->
+
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="../../../app-assets/vendors/js/ui/jquery.sticky.js"></script>
+    <script src="../../../app-assets/vendors/js/charts/apexcharts.min.js"></script>
+    <script src="../../../app-assets/vendors/js/extensions/toastr.min.js"></script>
+    <script src="../../../app-assets/vendors/js/extensions/moment.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/jquery.dataTables.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/datatables.buttons.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/dataTables.bootstrap5.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/responsive.bootstrap5.js"></script>
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="../../../app-assets/js/core/app-menu.js"></script>
+    <script src="../../../app-assets/js/core/app.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="../../../app-assets/js/scripts/pages/dashboard-analytics.js"></script>
+    <script src="../../../app-assets/js/scripts/pages/app-invoice-list.js"></script>
+    <!-- END: Page JS-->
+
+    <script>
+        $(window).on('load', function() {
+            if (feather) {
+                feather.replace({
+                    width: 14,
+                    height: 14
+                });
+            }
+        })
+    </script>
+      <script src="js/3deditor.js"></script>
+</body>
+<!-- END: Body-->
+
+</html>

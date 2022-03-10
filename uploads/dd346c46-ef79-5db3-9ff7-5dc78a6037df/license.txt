@@ -1,0 +1,11 @@
+Model Information:
+* title:	Atc
+* source:	https://sketchfab.com/3d-models/atc-8533c570fab04d5a9fbaf9ca44ede041
+* author:	1-5 Dollar store (https://sketchfab.com/Dollarstore)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Atc" (https://sketchfab.com/3d-models/atc-8533c570fab04d5a9fbaf9ca44ede041) by 1-5 Dollar store (https://sketchfab.com/Dollarstore) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

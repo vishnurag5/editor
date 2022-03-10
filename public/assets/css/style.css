@@ -1,0 +1,235 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.list-group-item {
+  background-color: inherit;
+}
+.card h4 {
+  display: inline !important;
+}
+
+.card-left {
+  width: 300px;
+  left: 0;
+  z-index: 10000;
+  position: absolute;
+  overflow: auto;
+}
+
+.card-left .closebtn {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.open-button {
+  width: 54px;
+  height: 46px;
+  border-radius: 5px;
+  background: #283046;
+  z-index: 999;
+  position: absolute;
+  margin-top: 10px;
+}
+.hide {
+  display: none;
+}
+@media (min-width: 1440px) {
+  .container-xxl#main-content-section {
+    max-width: 100% !important;
+  }
+}
+
+/* scrollbar custamization starts here */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 110px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #919cbb;
+  border-radius: 37px;
+  height: 110px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* scrollbar custamization ends here */
+
+/* removing of list style */
+li {
+  list-style-type: none;
+}
+
+.bg-highlight {
+  background: red;
+}
+
+#rightuploadPanel > .card-body {
+  overflow: auto;
+  height: 100vh;
+}
+
+#inspectorContainer > #rightPanel {
+  margin: 52px 0px 0px !important;
+  max-width: none !important;
+}
+
+#aframeInspector .collapsible .static,
+#aframeInspector #componentEntityHeader .static {
+  height: 35px !important;
+}
+
+#openbuttonrt {
+  right: 0;
+  /* margin-right: 10px; */
+  margin-top: 65px;
+}
+
+#aframeInspector #sidebar {
+  background: #242424;
+  width: 300px;height:395px;overflow-y: scroll;
+  width: 300px;
+}
+
+#propertiesText {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#componenttext {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* SVG sprites code starts here */
+
+svg.icon {
+  fill: red;
+  height: 24px;
+  width: 55px;
+  /* background: yellow; */
+  /* display: block; */
+  /* font-size: 11px; */
+}
+
+svg.icon.icon-left-arrow {
+  height: 16px;
+}
+/* SVG sprites code ends here */
+
+svg.icon.sidebar-icons {
+  height: 14px;
+  width: 20px;
+}
+
+#scenes_list ul {
+  padding-left: 1rem;
+}
+
+/* vishnu code starts here 08032022 */
+
+
+    .card-img-top file-logo-wrapper {
+        direction: rtl;
+    }
+
+    .card1 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        height: 100px;
+        width: 10rem;height: 8rem;padding-top: 1.5rem;border-radius: .5rem;
+
+    }
+
+    .card1:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+    }
+
+    .horizontal-layout.navbar-floating.footer-static .app-content .content-area-wrapper,
+    .horizontal-layout.navbar-floating.footer-static .app-content .kanban-wrapper {
+        height: calc();
+        height: calc();
+    }
+
+    /* @media (min-width: 576px) {
+        .file-manager-application .view-container .file-manager-item {
+            flex: 0 0 23%;
+            max-width: 18%;
+        }
+    } */
+
+    .card-statistics .statistics-body {
+        padding: 1rem 16.4rem 0.8rem !important;
+    }
+
+    .dropzone {
+        min-height: 230px;
+        padding-top: 4rem;
+    }
+
+    .file-manager-application .sidebar-file-manager .sidebar-inner .dropdown-actions {
+        width: 100%;
+        padding: -2rem 0rem 0rem;
+    }
+
+    .col-md-3 {
+        flex: 0 0 23%;
+        max-width: 20%;
+    }
+
+    .input-group-merge .form-control:not(:last-child) {
+        padding-left: 0px;
+        border-left: -1px;
+    }
+
+
+
+    .content-area-wrapper container-xxl p-0 {
+        height: 600px;
+    }
+
+    .dropdown-item {
+        display: block;
+        width: 100%;
+        padding: 0rem 0.28rem;
+    }
+
+    .addimage{
+      margin-left: 6rem;
+      height:150px;
+      width:300px; 
+    }
+    #users-list1 .sidebar>.sidebar-content.col-3 {
+      width: 300px;height:395px;overflow-y: scroll;
+    }
+    .Card image {
+      width: 50px;height: 50px;
+    }
+    #aframeInspector #sidebar {   
+      width: 18%;height:295px; 
+    }
+  
+/* vishnu code ends here 08032022 */
